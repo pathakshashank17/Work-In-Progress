@@ -1,6 +1,6 @@
 # Work-In-Progress
-###Some of the mock websites created during practise.\
-####Tehcnologies used :
+### Some of the mock websites created during practice.
+#### Tehcnologies used :
 - HTML
 - CSS & Bootstrap
 - JavaScript
