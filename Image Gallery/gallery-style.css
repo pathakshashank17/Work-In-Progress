@@ -1,0 +1,25 @@
+.navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.jumbotron {
+    color: #2c3e50;
+    background: #ecf0f1;
+}
+
+.navbar-dark.bg-dark {
+    background: #2c3e50;
+}
+
+.fas.fa-camera-retro {
+    color: #125688;
+}
+.fas.fa-images {
+    color: #fb3958;
+}
