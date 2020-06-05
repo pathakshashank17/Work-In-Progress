@@ -5,3 +5,4 @@
 - JavaScript
 
 ### Available at https://pathakshashank17.github.io/Work-In-Progress/
+##### Special thanks to Shivansh (https://github.com/ShivanshRakesh).
