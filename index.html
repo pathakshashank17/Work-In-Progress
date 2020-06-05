@@ -1,0 +1,20 @@
+<!-- <project-root>/index.html -->
+<body>
+    <div id="container" class="container"></div>
+    <script>
+        let projects = {
+            "Dicee": "./Dicee/index.html",
+            "Image Gallery": "./Image Gallery/gallery-html.html",
+            "Museum of Candy": "./Museum of Candy/index.html",
+            "Pattern": "./Pattern/pattern.html",
+            "Startup Landing Page": "./Startup Landing Page/index.html",
+            "Drum Kit": "./Drum Kit/index.html"
+        }
+
+        Object.keys(projects).forEach(function (project) {
+            let div = document.createElement("div");
+            div.innerHTML = "<a href='" + projects[project] + "'><h1>" + project + "</h1></a>";
+            document.getElementById("container").appendChild(div);
+        })
+    </script>
+</body>
