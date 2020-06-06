@@ -42,3 +42,11 @@ function playAudio(event) {
             break;
     }
 }
+
+function buttonPressAnimation (event) {
+    var activeButton = document.querySelector('.'+event);
+    activeButton.classList.add('pressed');
+    setTimeout(function () {
+        activeButton.classList.remove('pressed');
+    }, 100);
+}
