@@ -57,3 +57,7 @@ h1 {
 .u {
     background-image: url("../imgs/snare.png");
 }
+
+.pressed {
+    opacity: 0.5;
+}
