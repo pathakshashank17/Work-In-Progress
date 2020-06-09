@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+.r {
+    border-right: 4px solid black;
+    border-color: #26657c;
+}
+
+.b {
+    border-bottom: 4px solid black;
+    border-color: #26657c;
+}
+
+td {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-weight: 900;
+    padding: 0;
+    font-size: 2cm;
+    color: #2196F3;
+    transition: 0.2s;
+    font-family: consolas;
+}
+
+/* Glow effect */
+td:hover,button:hover {
+    color: #255784;
+    background: rgba(33, 150, 243, 0.8);
+    box-shadow: 0 0 10px #2196F3, 0 0 40px #2196F3, 0 0 80px #2196F3;
+}
+
+body {
+    background-color: #031321;
+    font-family: 'Kurale', serif;
+    color: #2196F3;
+    text-align: center;
+}
+
+button {
+    font-size: 2cm;
+    font-weight: 900;
+    color: #2196F3;
+    transition: 0.2s;
+    font-family: consolas;
+}
+
+.instruction {
+    font-size: 0.8rem;
+}
