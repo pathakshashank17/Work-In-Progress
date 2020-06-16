@@ -4,8 +4,8 @@ const bodyParser = require("body-parser");
 const https = require("https");
 
 const app = express();
-const API_KEY = "9ccea7e3d35f163e5b5391c0dbd6ffcd-us10";
-const LIST_ID = "e92251ffd8;"
+const API_KEY = "Enter your API key";
+const LIST_ID = "Enter your List ID";
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
@@ -29,10 +29,10 @@ app.post("/", function(req, res) {
         }]
     };
     dataForApiRequest = JSON.stringify(dataForApiRequest);
-    const url = "https://us10.api.mailchimp.com/3.0/lists/e92251ffd8";
+    const url = "https://us10.api.mailchimp.com/3.0/lists/__Here goes List ID__";
     const options = {
         method: "POST",
-        auth: "sha:9ccea7e3d35f163e5b5391c0dbd6ffcd-us10"
+        auth: "sha:__Here goes API key__"
     };
     const request = https.request(url, options, function(response) {
         response.on("data", function(data) {
