@@ -1,0 +1,27 @@
+<!-- <project-root>/index.html -->
+<head>
+    <title>Work-In-Progress</title>
+</head>
+<body>
+    <div id="container" class="container"></div>
+    <script>
+        let projects = {
+	    "Static Todo App": "https://safe-sierra-73300.herokuapp.com/",
+	    "News Letter Subscription (Node.js)": "https://protected-garden-32845.herokuapp.com/",
+            "Tic Tac Toe": "../Tic Tac Toe/index.html",
+            "Simon": "../Simon/index.html",
+            "Dicee": "../Dicee/index.html",
+            "Image Gallery": "../Image Gallery/gallery-html.html",
+            "Museum of Candy": "../Museum of Candy/index.html",
+            "Pattern": "../Pattern/pattern.html",
+            "Startup Landing Page": "../Startup Landing Page/index.html",
+            "Drum Kit": "../Drum Kit/index.html"
+        }
+
+        Object.keys(projects).forEach(function (project) {
+            let div = document.createElement("div");
+            div.innerHTML = "<a href='" + projects[project] + "'><h1>" + project + "</h1></a>";
+            document.getElementById("container").appendChild(div);
+        })
+    </script>
+</body>
